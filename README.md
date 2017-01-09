@@ -15,8 +15,9 @@ a) Nagivate to the folder containing all of the files.
 
 b) Simply open the html file.
 
-NOTE : 
+NOTE :
 
 1) The code executes properly on Windows, Linux and Macbook. Tested on all three operating systems.
+2) The html page is working on Google Chrome Browser.
 
 
