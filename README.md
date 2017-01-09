@@ -17,7 +17,7 @@ b) Simply open the html file.
 
 NOTE :
 
-1) The code executes properly on Windows, Linux and Macbook. Tested on all three operating systems.
+1) The code executes properly on Windows, Linux and Macbook. Tested on all three operating systems.<br>
 2) The html page is working on Google Chrome Browser.
 
 
