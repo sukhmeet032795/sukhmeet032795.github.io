@@ -12,11 +12,6 @@
         top: 535px;
     }
 
-    .copyright {
-
-        padding: 20px 30px;
-    }
-
     .inner {
 
         padding: 50px;
@@ -203,7 +198,6 @@
         overflow: visible !important;
         width: 100% !important;
         background-color: #000;
-        height: 318px;
     }
 
     .menu {
