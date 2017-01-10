@@ -3,7 +3,6 @@
 /******General*******/
 
 body{
-
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -14,190 +13,156 @@ body{
     margin: 0px;
 }
 
-a {
+a{
     color: #545454;
     text-decoration: none;
     transition-duration: .2s;
 }
 
-h1, h2, h3, h4, h5 {
-
+h1, h2, h3, h4, h5{
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
     color: #000;
     text-transform: uppercase;
 }
 
-h2 {
-
+h2{
     font-size: 45px;
     margin: 0;
     line-height: 45px;
 }
 
-h3 {
+h3{
     font-size: 16px;
     margin: 50px 0 10px;
 }
 
-h5 {
-
+h5{
     font-size: 18px;
 }
 
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
-
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
     float: left;
     position: relative;
 }
 
-.col-12 {
-
+.col-12{
     width: 100%
 }
 
-.col-11 {
-
+.col-11{
     width: 91.66666667%
 }
 
-.col-10 {
-
+.col-10{
     width: 83.33333333%;
 }
 
-.col-9 {
-
+.col-9{
     width: 75%
 }
 
-.col-8 {
-
+.col-8{
     width: 66.66666667%
 }
 
-.col-7 {
-
+.col-7{
     width: 58.33333333%
 }
 
-.col-6 {
-
+.col-6{
     width: 50%
 }
 
-.col-5 {
-
+.col-5{
     width: 41.66666667%
 }
 
-.col-4 {
-
+.col-4{
     width: 33.33333333%
 }
 
-.col-3 {
-
+.col-3{
     width: 25%
 }
 
-.col-2 {
-
-    width: 16.66666667%
+.col-2{
+    width: 16.66666667%;
 }
 
-.col-1 {
-
-    width: 8.33333333%
+.col-1{
+    width: 8.33333333%;
 }
 
-.margin-bottom50 {
-
-    margin-bottom: 50px
+.margin-bottom50{
+    margin-bottom: 50px;
 }
 
-.margin-bottom40 {
-
-    margin-bottom: 40px
+.margin-bottom40{
+    margin-bottom: 40px;
 }
 
-.margin-bottom30 {
-
-    margin-bottom: 30px
+.margin-bottom30{
+    margin-bottom: 30px;
 }
 
-.margin-bottom20 {
-
-    margin-bottom: 20px
+.margin-bottom20{
+    margin-bottom: 20px;
 }
 
-.margin-bottom10 {
-
-    margin-bottom: 10px
+.margin-bottom10{
+    margin-bottom: 10px;
 }
 
-.margin-top50 {
-
-    margin-top: 50px
+.margin-top50{
+    margin-top: 50px;
 }
 
-.margin-top40 {
-
-    margin-top: 40px
+.margin-top40{
+    margin-top: 40px;
 }
 
-.margin-top30 {
-
-    margin-top: 30px
+.margin-top30{
+    margin-top: 30px;
 }
 
-.margin-top20 {
-
-    margin-top: 20px
+.margin-top20{
+    margin-top: 20px;
 }
 
-.margin-top10 {
-
-    margin-top: 10px
+.margin-top10{
+    margin-top: 10px;
 }
 
 .no-border-bottom{
-
     border-bottom: none !important;
 }
 
-.margin-right30 {
-
+.margin-right30{
     margin-right: 30px;
 }
 
-.flot-left {
-
+.flot-left{
     float: left;
 }
 
-.flot-right {
-
+.flot-right{
     float: right;
 }
 
-.gray-bg {
-
-    background-color: #f7f7f7
+.gray-bg{
+    background-color: #f7f7f7;
 }
 
-.white-bg {
-
-    background-color: #FFFFFF;
+.white-bg{
+    background-color: #fff;
 }
 
-img {
-
+img{
     max-width: 100%;
 }
 
-input[type="text"], textarea {
-
+input[type="text"], textarea{
     padding: 15px;
     border: none;
     border: 1px solid #dfdfdf;
@@ -208,8 +173,7 @@ input[type="text"], textarea {
     margin: 20px 0 0;
 }
 
-input[type="submit"] {
-
+input[type="submit"]{
     border: 2px solid #ffb400;
     background-color: transparent;
     color: #a6a6a6;
@@ -219,46 +183,40 @@ input[type="submit"] {
     font-size: 16px;
     text-transform: uppercase;
     padding: 8px 18px;
-    background-color: #FFF;
+    background-color: #fff;
     margin: 20px 0 0;
     transition-duration: .2s;
 }
 
-input[type="text"]:focus, textarea:focus {
-
+input[type="text"]:focus, textarea:focus{
     outline: none;
     color: #545454;
     border: 1px solid #ffb400;
 }
 
-input[type="submit"]:hover {
-
+input[type="submit"]:hover{
     background-color: #ffb400;
     color: #fff;
 }
 
-input[type="text"], input[type="email"], input[type="search"], input[type="password"], textarea, input[type="submit"], input[type="button"] {
-
+input[type="text"], input[type="email"], input[type="search"], input[type="password"], textarea, input[type="submit"], input[type="button"]{
     box-shadow: none !important;
     border-radius: 0px;
 }
 
 .container{
-
     display: flex;
     margin: 0px;
     max-width: none;
 }
 
-.container-sub {
-
+.container-sub{
     width: 100%;
     position: relative;
     margin: 0 auto;
 }
 
-.container-sub:after {
-
+.container-sub:after{
     content: " ";
     display: block;
     clear: both;
@@ -266,43 +224,43 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
 /******Side Nav(Left Panel)*********/
 
 .leftPanel{
-
     width: 200px;
     position: fixed;
     z-index: 1000;
     height: 100vh;
 }
 
-.logo {
-
+.logo{
     text-align: center;
     margin: 30px 0 0;
 }
 
 .logo img{
-
     border-radius: 50%;
 }
 
-.logo span {
-
+.logo span{
     display: none
 }
 
-.menu {
+#menu1{
+    overflow: hidden;
+    padding: 0px;
+    width: 200px;
+}
 
+.menu{
     position: fixed;
     z-index: 100;
     color: #f8f8f8;
-    background: #000000;
+    background: #000;
     width: 200px;
     left: 0px;
     top: 0px;
     height: 100%;
 }
 
-.menu nav {
-
+.menu nav{
     top: 183px;
     margin-top: 17px;
     left: 0px;
@@ -311,36 +269,32 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     width: 200px !important;
 }
 
-.menu nav a {
-
+.menu nav a{
     display: block;
     padding: 13px 0;
     text-align: left;
     outline: none;
     margin: 0 30px;
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #333;
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
     font-weight: 300;
-    color: #FFF;
+    color: #fff;
     text-transform: uppercase;
     transition-duration: .2s;
 }
 
-.menu nav a span.active {
-
+.menu nav a span.active{
     color: #ffb400;
     font-weight: 600
 }
 
-.menu nav a:hover {
-
+.menu nav a:hover{
     color: #ffb400;
     text-decoration: none;
 }
 
-.menu nav a span:nth-child(2) {
-
+.menu nav a span:nth-child(2){
     display: block;
     color: #fff;
     font-style: italic;
@@ -349,46 +303,38 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     padding-top: 3px;
 }
 
-.menu-link {
-
+.menu-link{
     display: none
 }
 
-.social {
-
+.social{
     text-align: center;
     margin-top: 18px;
 }
 
-.social a {
-
+.social a{
     font-size: 20px;
     transition-duration: .2s;
 }
 
-.social a:hover {
-
+.social a:hover{
     color: #fff;
 }
 
-.social .facebook {
-
-    color: #5a7eca
+.social .facebook{
+    color: #5a7eca;
 }
 
-.social .twitter {
-
+.social .twitter{
     color: #03acf1;
     margin: 0 26px 0 30px
 }
 
-.social .google-plus {
-
+.social .google-plus{
     color: #df4a32
 }
 
-.copyright {
-
+.copyright{
     bottom: 5px;
     text-align: center;
     margin-top: 30px;
@@ -400,11 +346,19 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     letter-spacing: 1px
 }
 
+.jspContainer{
+    width: 200px;
+}
+
+.jspPane{
+    padding: 0px;
+    top: 0px;
+    width: 200px;
+}
 
 /*****Content(Right Panel)*****/
 
 .rightPanel{
-
     position: absolute;
     left: 200px;
     right: 0px;
@@ -413,7 +367,6 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
 }
 
 .rightPanel-inner{
-
     width: 7356px;
     position: absolute;
     height: 100%;
@@ -423,7 +376,6 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
 }
 
 .box{
-
     width: 804px;
     overflow-y: scroll;
     height: 100%;
@@ -432,37 +384,21 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
 }
 
 .box:last-child{
-
     width: 85vw;
 }
 
-.boxa{
-
-    display: none;
-    background: url("../images/ProfilePic.jpg") no-repeat;
-    background-position: right 20px bottom 10px;
-}
-
-.boxd{
-
-    background-color: grey;
-}
-
-.inner {
-
+.inner{
     padding: 70px;
 }
 
-.title-divider {
-
+.title-divider{
     width: 70px;
     height: 5px;
     background-color: #ffb400;
     margin: 30px 0 50px 0;
 }
 
-.full-divider {
-
+.full-divider{
     width: 100%;
     height: 1px;
     background-color: #dfdfdf;
@@ -470,10 +406,9 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     clear: both;
 }
 
-.button {
-
+.button{
     border: 2px solid #ffb400;
-    background-color: #FFF;
+    background-color: #fff;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     color: #000;
@@ -487,68 +422,56 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
 }
 
 .next{
-
     cursor: move;
 }
 
 /*******Introduction********/
 
 .introduction{
-
     width: 587px;
     overflow: hidden;
 }
 
 .introduction img{
-
     height: 100vh;
     overflow: hidden;
 }
 
 /*******About Screen*******/
 
-.about {
-
-    /*background: url(../images/about.jpg)no-repeat 100% 0 scroll;*/
-    /*background-size: contain;*/
+.about{
 }
 
-.about .inner {
-
+.about .inner{
     width: 50%
 }
 
-.about img {
-
+.about img{
     position: absolute;
     z-index: -1;
     left: 0;
     top: 0
 }
 
-.about-con {
-
+.about-con{
     width: 100%
 }
 
-.about-con ul {
-
+.about-con ul{
     margin: 0;
     padding: 0;
     list-style: none
 }
 
-.about-con ul li {
-
+.about-con ul li{
     border-bottom: 1px solid #dfdfdf;
     padding: 12px 0;
 }
 
-.about-con ul li:first-child {
-
+.about-con ul li:first-child{
     padding: 0 0 12px 0
 }
-.about img.signature {
+.about img.signature{
     position: inherit;
     top: auto;
     margin: 20px 0 0 0;
@@ -556,45 +479,38 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
 
 /*******Skills Screen******/
 
-.skills {
-
+.skills{
 }
 
-.skill-list ul {
-
+.skill-list ul{
     margin: 0;
     padding: 0
 }
 
-.skill-list ul li {
-
+.skill-list ul li{
     padding: 5px 0 0;
     list-style: none
 }
 
-.skills-con h4 {
-
+.skills-con h4{
     width: 65%;
 }
 
-.skill-list ul li:before {
-
+.skill-list ul li:before{
     content: "\f00c";
     font-family: 'FontAwesome';
     font-size: 15px;
     margin: 0 5px 0 0
 }
 
-.skills-con .col-6:hover .chart .percent {
-
+.skills-con .col-6:hover .chart .percent{
     font-size: 45px;
     color: #000;
     transition-duration: .1s;
 }
 /********#Progressbar********/
 
-.progress {
-
+.progress{
     background: #d4d4d4;
     width: 86%;
     float: right;
@@ -602,20 +518,17 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     top: 10px;
 }
 
-.progress div {
-
+.progress div{
     background-color: #8f8f8f;
     height: 6px;
 }
 
-.progressbar-main {
-
+.progressbar-main{
     position: relative;
     min-height: 35px
 }
 
-.progress-value span {
-
+.progress-value span{
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
     font-weight: 400;
@@ -625,14 +538,12 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     top: -19px
 }
 
-.progress-value span:after {
-
+.progress-value span:after{
     content: "%";
     font-weight: 100
 }
 
-.progress-bar-description {
-
+.progress-bar-description{
     font-weight: 500;
     color: #000;
     margin: 0 0 0 90px;
@@ -641,26 +552,23 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
 
 /********PieChart********/
 
-.chart {
-
+.chart{
     position: relative;
     display: inline-block;
     width: 154px;
     height: 154px;
     text-align: center;
     border-radius: 50%;
-    background-color: #FFF;
+    background-color: #fff;
 }
 
-.chart canvas {
-
+.chart canvas{
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.percent {
-
+.percent{
     display: inline-block;
     line-height: 110px;
     z-index: 2;
@@ -672,61 +580,51 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     color: #ffb400;
 }
 
-.percent:after {
-
+.percent:after{
     content: '%';
     margin-left: 0.1em;
     font-family: 'Oswald', sans-serif;
     font-weight: 100;
 }
 
-.angular {
-
+.angular{
     margin-top: 100px;
 }
 
-.angular .chart {
-
+.angular .chart{
     margin-top: 0;
 }
 
-.chart-text {
-
+.chart-text{
     margin: 30px 0 0 0
 }
 
-.chart-text p {
-
+.chart-text p{
     margin: 10px 0 0 15px
 }
 
-.chart-text h4 {
-
+.chart-text h4{
     margin: 0 0 0 15px;
 }
 
 /******Experience********/
 
-.experience-con .icon-block i {
-
+.experience-con .icon-block i{
     font-size: 60px;
     color: #ffb400;
     margin: 8px 0 0
 }
 
-.experience-con h5 {
-
+.experience-con h5{
     margin: 5px 0 7px 0
 }
 
-.experience-con span {
-
+.experience-con span{
     font-size: 16px;
     color: #000;
 }
 
-.experience-con strong {
-
+.experience-con strong{
     font-weight: 500;
     color: #000;
     text-transform: uppercase;
@@ -734,50 +632,42 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     margin: 0 0 5px 0
 }
 
-.experience-details {
-
+.experience-details{
     float: left;
 }
 
-.experience-details i {
-
+.experience-details i{
     transition-duration: .2s;
 }
 
-.experience-details:hover i {
-
+.experience-details:hover i{
     font-size: 73px;
     color: #000;
 }
 
-.experience-details:hover .col-3 {
-
+.experience-details:hover .col-3{
     width: 29%;
     transition-duration: .2s;
 }
 
 /**********Education***********/
 
-.education-con .icon-block i {
-
+.education-con .icon-block i{
    font-size: 60px;
     color: #ffb400;
     margin: 8px 0 0
 }
 
-.education-con h5 {
-
+.education-con h5{
     margin: 5px 0 7px 0
 }
 
-.education-con span {
-
+.education-con span{
     font-size: 16px;
     color: #000;
 }
 
-.education-con strong {
-
+.education-con strong{
     font-weight: 500;
     color: #000;
     text-transform: uppercase;
@@ -785,57 +675,58 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     margin: 0 0 5px 0
 }
 
-.education-details {
-
+.education-details{
     float: left;
 }
 
-.education-details i {
-
+.education-details i{
     transition-duration: .2s;
 }
 
-.education-details:hover i {
-
+.education-details:hover i{
     font-size: 73px;
     color: #000;
 }
 
-.education-details:hover .col-3 {
-
+.education-details:hover .col-3{
     width: 29%;
     transition-duration: .2s;
 }
 
 .education-con h5{
-
     margin: 5px 0 7px 0;
+}
+
+.education-details > div{
+    display: flex;
+}
+
+.education-con .icon-details{
+    margin: 12px 0px 0px 30px;
 }
 
 /**********Portfolio*************/
 
-.grid-gallery { height:2600px}
+.grid-gallery{
+    height:2600px
+}
 
-.grid-gallery ul {
-
+.grid-gallery ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.grid-gallery figure {
-
+.grid-gallery figure{
     margin: 0;
 }
 
-.grid-gallery figure picture {
-
+.grid-gallery figure picture{
     display: block;
     width: 100%;
 }
 
-.grid-gallery figcaption h3 {
-
+.grid-gallery figcaption h3{
     margin: 0;
     font-weight: 500;
     font-size: 20px;
@@ -845,8 +736,7 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     padding: 0 0 10px 0;
 }
 
-.grid-gallery figcaption span {
-
+.grid-gallery figcaption span{
     border-bottom: 3px solid #ffb400;
     color: #000;
     display: block;
@@ -855,16 +745,15 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     text-transform: uppercase;
 }
 
-.grid-wrap {
-}
+.grid-wrap{ }
 
-.grid {
-
+.grid{
     margin: 0 auto;
+    position: relative;
+    height: 2585.86px;
 }
 
-.grid li {
-
+.grid li{
     width: 100%;
     float: left;
     cursor: pointer;
@@ -873,18 +762,15 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     top: inherit !important;
 }
 
-.grid figure {
-
+.grid figure{
     transition: opacity 0.2s;
 }
 
-.grid li:hover figure {
-
+.grid li:hover figure{
     opacity: 1;
 }
 
-.grid figcaption {
-
+.grid figcaption{
     background-color: #ffb400;
     opacity: 0;
     position: absolute;
@@ -895,15 +781,13 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     transition-duration: .2s;
 }
 
-.grid li:hover figcaption {
-
+.grid li:hover figcaption{
     opacity: 1;
     transition-timing-function: ease-out;
     transition-duration: .2s;
 }
 
-.figcaption-details {
-
+.figcaption-details{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -912,13 +796,11 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
 }
 
 .figcaption-details div{
-
     display: flex;
     margin-bottom: 20px;
 }
 
 .fa-icon{
-
     color: white;
     font-size: 30px !important;
     margin-left: 13px;
@@ -926,98 +808,80 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
 }
 
 .grid span{
-
     display: block;
     margin-top: 5px;
 }
 
 /********Social**********/
 
-.contact-details {
-}
+.contact-details{ }
 
-.contact-details i {
-
+.contact-details i{
     font-size: 45px;
     color: #ffb400
 }
 
-.contact-details strong {
-
+.contact-details strong{
     color: #000;
     display: inline-block;
     font-weight: 500;
     text-transform: uppercase;
 }
 
-.contact-text {
-
+.contact-text{
     display: block;
     float: left;
     margin: 18px 0 0;
     width: 100%;
 }
 
-.contact-details h3 {
-
+.contact-details h3{
     margin-top: 0
 }
 
-.contact-text:first-child {
-
+.contact-text:first-child{
     margin: 0
 }
 
-.contact-details .phone i {
-
+.contact-details .phone i{
     font-size: 40px
 }
 
-.contact-details .email i {
-
+.contact-details .email i{
     font-size: 35px
 }
 
-.contact-text i {
-
+.contact-text i{
     transition-duration: .2s;
 }
 
-.contact-text:hover i {
-
+.contact-text:hover i{
     color: #000;
 }
 
-.contact-social i {
-
+.contact-social i{
     color: #797979;
 }
 
-.contact-social a i {
-
+.contact-social a i{
     font-size: 25px;
     margin: 0 14px
 }
 
-.contact-social a:first-child i {
-
+.contact-social a:first-child i{
     margin: 0 15px 0 0
 }
 
-.contact-social i {
-
+.contact-social i{
     transition-duration: .2s;
 }
 
-.contact-social i:hover {
-
+.contact-social i:hover{
     color: #000;
 }
 
-.contact-form {
-}
+.contact-form{ }
 
-.contact-form h3 {
-
+.contact-form h3{
     font-size: 28px;
 }
