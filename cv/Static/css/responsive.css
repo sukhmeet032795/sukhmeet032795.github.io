@@ -1,0 +1,458 @@
+/****************NavBar***************/
+
+@media screen and (max-width: 1024px) {
+    .menu nav {
+        top: 180px;
+    }
+
+    .social {
+        top: 535px;
+    }
+
+    .inner {
+        padding: 50px;
+    }
+
+    .box {
+        width: 700px;
+    }
+
+    .menu nav a {
+        padding: 11px 0;
+    }
+
+    .contact-form {
+        padding-bottom: 200px;
+    }
+
+    .introduction {
+        width: 530px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .box {
+        width: 650px;
+    }
+
+    .introduction {
+        width: 530px;
+    }
+
+    .about .inner {
+        width: 70%;
+    }
+
+    .about .inner img {
+        display: block;
+    }
+
+    .inner {
+        padding: 30px;
+    }
+
+    .skills-con .container-sub:first-child .row > div {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .skills-con .container-sub:first-child .row > div:first-child {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .leftPanel {
+        width: 0px;
+    }
+
+    nav .jspPane {
+        width: 100% !important
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 380px;
+    }
+
+    .menu nav {
+        top: 50px;
+        bottom: 20px;
+    }
+
+    .rightPanel {
+        position: relative;
+        height: auto;
+        left: 0;
+        overflow: visible;
+    }
+
+    .rightPanel-inner {
+        height: auto;
+        width: auto;
+        margin-left: 0px;
+    }
+
+    .box {
+        border: none;
+        width: 90vw;
+        margin-left: 5vw;
+        float: none;
+        overflow-y: auto;
+    }
+
+    .logo {
+        margin: 0
+    }
+
+    .logo span {
+        color: #fff;
+        display: block;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        float: left;
+        width: 80%;
+        text-align: left;
+        padding: 13px 0 13px 15px;
+    }
+
+    .logo img {
+        display: none
+    }
+
+    .menu-link {
+        display: block;
+        float: right;
+        padding: 14px 15px 0 0;
+        width: 25px;
+        height: 25px;
+        font-size: 23px;
+        color: #fff;
+    }
+
+    .menu-link:hover {
+        color: #999;
+    }
+
+    .menu-link::before {
+        content: "\f039";
+        font-family: 'FontAwesome';
+    }
+
+    .menu nav a {
+        margin: 0 17px;
+    }
+
+    .menu nav a:last-child {
+        border-bottom: none;
+    }
+
+    .menu nav {
+        display: none;
+    }
+
+    nav.active {
+        display: block;
+        overflow: visible !important;
+        width: 100% !important;
+        background-color: #000;
+    }
+
+    .menu {
+        height: 50px;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .social {
+        display: none;
+    }
+
+    .grid {
+        height: auto !important;
+    }
+
+    .grid li {
+        width: 100%;
+    }
+
+    .inner {
+        padding: 60px 40px 60px;
+    }
+
+    .experience-details .col-3,
+    .education-con .col-3 {
+        width: 30%;
+    }
+
+    .grid-gallery {
+        height:auto;
+    }
+
+    .button {
+        font-size: 16px;
+        width: auto;
+        display: block;
+        text-align: center;
+        float: left;
+        padding: 14px;
+        line-height: 20px;
+    }
+
+    .row {
+        min-height: auto;
+    }
+
+    .about {
+        margin-top: 30px;
+    }
+
+    .about-con::after {
+        display: block;
+        content: " ";
+        clear: both;
+    }
+
+    .about .inner img {
+        clear: both;
+    }
+
+    .contact-details .col-6 {
+        width: 100%;
+    }
+
+    .contact-details .m-margin-top30 {
+        margin-top: 40px;
+    }
+
+    .introduction {
+        width: 100vw;
+        margin: 0px;
+        overflow: hidden;
+    }
+
+    .introduction img {
+        width: 100%;
+        margin: 0px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 675px) {
+
+    .inner {
+        padding: 60px 30px 40px 30px;
+    }
+
+    .button {
+        width: auto;
+        float: left;
+    }
+
+    .about {
+        background: none;
+    }
+
+    .about .inner {
+        width: auto;
+    }
+
+    .jspPane {
+        width: 100% !important;
+    }
+
+    .col-6, .col-4 {
+        width: 100%;
+    }
+
+    .figcaption-details {
+        justify-content: center;
+    }
+
+    .figcaption-details img {
+        height: 25px !important;
+        width: 25px !important;
+        margin: 0;
+    }
+
+    .grid li {
+        margin: 0 0 40px 0;
+    }
+
+    .figcaption-details h3 {
+        font-size: 15px;
+        padding: 15px 0 0;
+    }
+
+    .figcaption-details div {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .figcaption-details .col-10 {
+        width: 83.33333333%;
+        text-align: left;
+    }
+
+    .figcaption-details .col-2 {
+        width:16.66666667%;
+        text-align: left;
+    }
+
+    .figcaption-details span {
+        margin: 0px;
+    }
+
+    .skills-con .col-6 {
+        text-align: center;
+    }
+
+    .skills-con h4 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .chart-text p {
+        margin: 0;
+    }
+
+    .skills-con .margin-top50 .row > div:nth-child(3) {
+        margin-bottom: 50px;
+    }
+
+    .experience-details .col-3
+    ,.education-con .col-3 {
+        width: 100%;
+    }
+
+    .flot-left {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+
+    .contact-details .col-2 {
+        width: 15%;
+    }
+
+    .email {
+        margin-bottom: 0;
+    }
+
+    .contact-form input[type="text"],
+    textarea {
+        width: 92%;
+    }
+
+    .m-margin-top30 {
+        margin-top: 30px;
+    }
+
+    .contact-social a i {
+        margin: 0 10px;
+    }
+
+    .contact-social a:first-child i {
+        margin: 0 10px 0 0;
+    }
+
+    .margin-top50 {
+        margin-top: 35px;
+    }
+
+    .margin-bottom50 {
+        margin-bottom: 35px;
+    }
+
+    .no-margin-top {
+        margin-top: 0 !important;
+    }
+
+    .progress-value span {
+        display: none;
+    }
+
+    .progress {
+        width: 100%;
+    }
+
+    .progress-bar-description {
+        margin: 0;
+    }
+
+    .rightPanel-inner {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .title-divider {
+        margin: 20px 0 30px 0;
+    }
+
+    .slideshow figure {
+        border: 20px solid #fff;
+        border-top: 10px solid #fff;
+    }
+
+    .slideshow figure {
+        width: 50%;
+    }
+
+    .contact-form input[type="text"],
+    textarea {
+        width: 88%;
+    }
+
+    .row {
+        margin: 0 0 35px 0;
+        width: 100%;
+        min-height: inherit;
+    }
+
+    .margin-top30 {
+        margin-top: 20px;
+    }
+
+    #chapterportfolio {
+        overflow: hidden;
+    }
+
+    .workDetail {
+        display: none !important;
+    }
+
+    .grid span {
+        margin: 0px;
+    }
+
+    .figcaption-details {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: -webkit-center;
+    }
+}
