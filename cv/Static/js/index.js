@@ -3,8 +3,7 @@ $(function(){
     //Horizontal Scrolling of Divs When Div is Clicked
 
     $('html, body').animate({scrollLeft: $('.current')[0].offsetLeft}, 800);
-    console.log($( window ).width());
-
+    
     var index = 1, mar = 0;
     var childCount = $('.rightPanel-inner').children().length;
     var parentWidth = parseInt($('.rightPanel-inner').css("width"));
@@ -121,6 +120,56 @@ $(function(){
             $('.rightPanel').animate({scrollLeft: $('.current')[0].offsetLeft}, 800);
         },
         runOnStart : true
+    });
+
+    $("input[type='submit']").click(function(e){
+
+        e.preventDefault();
+        var name = $("input[name='name']").val();
+        var email = $("input[name='email']").val();
+        var message = $("textarea[name='message']").val();
+
+        var data = { 'name' : name, 'email' : email, 'message' : message };
+
+        $.ajax({
+            
+            type: 'POST',
+            dataType: 'json',
+            data: {
+                'name' : name, 
+                'email' : email, 
+                'message' : message
+            },
+            success: function(result) {
+            
+                if(result["status"] == 1){
+
+                    alert("Done");
+                    $("input[name='name']").val("");
+                    $("input[name='email']").val("");
+                    $("textarea[name='message']").val("");
+                }   
+                else if(result["status"] == 2){
+
+                    alert("Try Again Later");
+                } 
+                else{
+
+                    if(result["name_error"] != ""){
+                        alert(result["name_error"]);
+                    }
+
+                    if(result["email_error"] != ""){
+                        alert(result["email_error"]);
+                    }
+
+                    if(result["message_error"] != ""){
+                        alert(result["message_error"]);
+                    }
+
+                }
+            }
+        });
     });
 });
 

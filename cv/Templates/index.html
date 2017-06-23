@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
 
     <!-- Google Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,900,900italic,700italic%7COswald:400,300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,900,900italic,700italic%7COswald:400,300,700" rel="stylesheet">
 
 </head>
 <body>
@@ -505,7 +505,6 @@
                                                 </div>
                                                 <div class="flot-left">
                                                     <strong>Sukhmeet Singh</strong><br>
-                                                    Maurya Enclave Pitampura,<br>
                                                     Delhi NCR, India
                                                 </div>
                                             </div>
@@ -557,15 +556,13 @@
                                 <div class="row">
                                     <div class="contact-form">
                                         <h3>Drop Me a Line</h3>
-                                        <!-- <form id="form1" name="form1" method="post">
-                                            <input name="name" type="text" id="name" placeholder="Your Name...">
-                                            <input name="email" type="text" id="email" placeholder="Your Email...">
-                                            <textarea name="message" id="message" cols="45" rows="5" placeholder="Your Message..."></textarea>
+                                        <form method = "post" method = "/">
+                                            {% csrf_token %}
+                                            <input name="name" type="text" id="name" value ="{{form.name}}" placeholder="Your Name...">
+                                            <input name="email" type="text" id="email" value ="{{form.email}}" placeholder="Your Email...">
+                                            <textarea name="message" id="message" cols="45" rows="5" placeholder="Your Message...">{{form.message}}</textarea>
                                             <input type="submit" name="button" id="button" value="say hello!">
                                             <div id="successmsg"></div>
-                                        </form> -->
-                                        <form>
-                                            {{form}}
                                         </form>
                                     </div>
                                 </div>
@@ -580,20 +577,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <!-- Custom JavaScript -->
-    <script src="{% static "js/index.js" %}"></script>
+    <script src="{% static 'js/index.js' %}"></script>
 
     <!-- FontAwesome JavaScript -->
     <script src="https://use.fontawesome.com/329b68c3d5.js"></script>
 
     <!-- Skills JavaScript -->
-    <script src="{% static "js/jquery.easypiechart.js" %}"></script>
-    <script src="{% static "js/progressbar.js" %}"></script>
+    <script src="{% static 'js/jquery.easypiechart.js' %}"></script>
+    <script src="{% static 'js/progressbar.js' %}"></script>
 
     <!-- Modernizer JavaScript -->
-    <script src="{% static "js/modernizr.custom.js" %}"></script>
+    <script src="{% static 'js/modernizr.custom.js' %}"></script>
 
     <!-- Resizing Window JavaScript -->
-    <script src="{% static "js/resizeWindow.js" %}"></script>
+    <script src="{% static 'js/resizeWindow.js' %}"></script>
 
 </body>
 </html>
