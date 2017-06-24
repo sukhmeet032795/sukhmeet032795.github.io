@@ -907,3 +907,27 @@ input[type="button"] {
 .contact-form h3 {
     font-size: 28px;
 }
+
+/*********Toast*******/
+
+.paper-snackbar {
+    transition-property: opacity, bottom, left, right, width, margin, border-radius;
+    transition-duration: 0.5s;
+    left: 80%;
+    margin-bottom: 25px;
+    transition-timing-function: ease;
+    font-family: RobotoDraft;
+    font-size: 18px;
+    min-height: 14px;
+    background-color: #323232;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    line-height: 22px;
+    padding: 24px 24px;
+    border-radius: 50%;
+    bottom: 0px;
+    opacity: 0;
+}

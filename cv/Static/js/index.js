@@ -122,6 +122,17 @@ $(function(){
         runOnStart : true
     });
 
+    //snackbar
+
+    var options =  {
+        content: "Hey!!", 
+        style: "toast", 
+        timeout: 300,
+        htmlAllowed: true
+    }
+
+    $.snackbar(options);
+
     $("input[type='submit']").click(function(e){
 
         e.preventDefault();
@@ -144,27 +155,30 @@ $(function(){
             
                 if(result["status"] == 1){
 
-                    alert("Done");
+                    $.snackbar({content: "Hey!! Glad to hear from you."});
                     $("input[name='name']").val("");
                     $("input[name='email']").val("");
                     $("textarea[name='message']").val("");
                 }   
                 else if(result["status"] == 2){
 
-                    alert("Try Again Later");
+                    $.snackbar({content: "Oops!! Lets try again."}); 
                 } 
                 else{
 
-                    if(result["name_error"] != ""){
-                        alert(result["name_error"]);
+                    if(result["name_error"] != false){
+
+                        $.snackbar({content: "Hey!!! Name is invalid"});
                     }
 
-                    if(result["email_error"] != ""){
-                        alert(result["email_error"]);
+                    if(result["email_error"] != false){
+                        
+                        $.snackbar({content: "Hey!!! Email is invalid"});
                     }
 
-                    if(result["message_error"] != ""){
-                        alert(result["message_error"]);
+                    if(result["message_error"] != false){
+                        
+                        $.snackbar({content: "Hey!!! You seem to have messed up with the message"});
                     }
 
                 }

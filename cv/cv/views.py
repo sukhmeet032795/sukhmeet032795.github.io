@@ -11,10 +11,11 @@ import re
 from contactForm import models as contact
 
 EMAIL_REGEX = re.compile(r"(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)")
+NAME_REGEX = re.compile(r"^[^\W0-9_]+([ \-'‧][^\W0-9_]+)*?$", re.U)
 
 def validName(name):
 
-	if not name:
+	if not name or not NAME_REGEX.match(name):
 		return False
 	return True
 
@@ -44,20 +45,20 @@ def home(request):
 		email = request.POST["email"]
 		message = request.POST["message"]
 		
-		form = { 'name' : name, 'email' : email, 'message' : message, 'name_error' : '', 'email_error' : '', 'message_error' : '' }
+		form = { 'name' : name, 'email' : email, 'message' : message, 'name_error' : False, 'email_error' : False, 'message_error' : False }
 
 		error = False
 
 		if not validName(name):
-			form['name_error'] = "Not a Valid Name"
+			form['name_error'] = True
 			error = True
 
 		if not validEmail(email):
-			form['email_error'] = "Not a Valid Email"
+			form['email_error'] = True 
 			error = True
 
-		if not validMessage(email):
-			form['message_error'] = "Not a Valid Message"
+		if not validMessage(message):
+			form['message_error'] = True
 			error = True
 
 		if error:
