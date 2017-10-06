@@ -2,8 +2,8 @@
 
 The resume project is a web version of my resume. It showcases my entire resume with my skills, education, experience so far and contact details.<br>
 
-It is hosted on:
-sukhmeet032795.github.io
+It is hosted on:<br>
+https://sukhmeet032795.github.io/
 
 It consist of the following folders:
 
