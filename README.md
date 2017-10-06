@@ -1,6 +1,10 @@
 <h2><b>Curriculum Vitae</b></h2>
 
 The resume project is a web version of my resume. It showcases my entire resume with my skills, education, experience so far and contact details.<br>
+
+It is hosted on:
+sukhmeet032795.github.io
+
 It consist of the following folders:
 
 1) css : Serves all the css files.
